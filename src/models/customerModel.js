@@ -24,8 +24,9 @@ const customerSchema = new mongoose.Schema({
         type:String,
         default: "regular"
     },
-    noOfOrders:{
-        type:Number
+    numberOfOrders:{
+        type:Number,
+        default:0
     },
     moneyBack:{
         type: Number,
