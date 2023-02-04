@@ -1,0 +1,24 @@
+{
+  "name": "bonus-ordermanagement",
+  "version": "1.0.0",
+  "description": "bonus project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tusharg376/bonus-orderManagement.git"
+  },
+  "author": "Tushar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tusharg376/bonus-orderManagement/issues"
+  },
+  "homepage": "https://github.com/Tusharg376/bonus-orderManagement#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  }
+}
